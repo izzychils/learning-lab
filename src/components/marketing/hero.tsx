@@ -60,7 +60,7 @@ export function Hero() {
                   Open the molecular lab
                 </ArrowButton>
                 <a
-                  href="#platform"
+                  href="/platform"
                   className="group inline-flex h-12 items-center gap-2.5 rounded-full px-4 text-[13px] font-semibold text-paper/70 transition-colors hover:text-paper sm:px-5"
                 >
                   <span className="flex h-8 w-8 items-center justify-center rounded-full border border-paper/20 bg-paper/[0.03] transition-colors group-hover:border-paper/40">
@@ -92,7 +92,7 @@ export function Hero() {
 
         <div className="mt-14 flex items-center justify-between border-t border-paper/10 pt-4 sm:mt-16">
           <a
-            href="#platform"
+            href="/platform"
             className="group flex items-center gap-2 font-mono text-[9px] uppercase tracking-[0.16em] text-paper/34 transition-colors hover:text-paper/70"
           >
             <ArrowDown className="h-3 w-3 transition-transform duration-300 group-hover:translate-y-0.5" />

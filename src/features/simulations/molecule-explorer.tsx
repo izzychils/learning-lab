@@ -220,7 +220,7 @@ export function MoleculeExplorer() {
           </div>
 
           <a
-            href="#tutor"
+            href="/tutor"
             className="group mt-5 flex items-center justify-between border-t border-ink/10 pt-4 text-[11px] font-semibold text-ink lg:mt-auto"
           >
             Ask a follow up

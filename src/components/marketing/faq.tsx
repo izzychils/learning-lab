@@ -49,7 +49,7 @@ export function Faq() {
             bring it to the walkthrough.
           </p>
           <a
-            href="#access"
+            href="/access"
             className="mt-7 inline-flex items-center gap-2 border-b border-ink/20 pb-1 text-[11.5px] font-semibold text-ink transition-colors hover:border-flare hover:text-flare-deep"
           >
             Ask us in a walkthrough

@@ -105,7 +105,7 @@ export function AtomConsole() {
             </div>
 
             <a
-              href="#tutor"
+              href="/tutor"
               className="group flex items-center gap-2.5 bg-flare px-4 py-3 text-ink transition-colors hover:bg-[#ff6c39]"
             >
               <Sparkles className="h-3.5 w-3.5 shrink-0" />

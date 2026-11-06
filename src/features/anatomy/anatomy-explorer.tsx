@@ -84,7 +84,7 @@ export function AnatomyExplorer() {
           </div>
 
           <a
-            href="#educators"
+            href="/educators"
             className="group mt-auto flex items-center justify-between gap-4 border-t border-paper/10 pt-5 text-[11px] font-semibold text-paper/75 transition-colors hover:text-flare"
           >
             Learn with your class

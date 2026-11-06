@@ -63,7 +63,7 @@ export function Educators() {
 
               <Reveal delay={280}>
                 <div className="mt-9 flex flex-wrap items-center gap-4">
-                  <ArrowButton href="#access" variant="flare">
+                  <ArrowButton href="/access" variant="flare">
                     Bring your class
                   </ArrowButton>
                   <p className="font-mono text-[8px] uppercase tracking-[0.11em] text-paper/28">
