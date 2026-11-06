@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { LabLogo } from "@/components/brand/logo";
+import { site } from "@/lib/site";
 
 const columns = [
   {
@@ -13,12 +14,13 @@ const columns = [
     ],
   },
   {
-    title: "Product",
+    title: "Company",
     links: [
+      { label: "About", href: "/about" },
+      { label: "Products", href: "/products" },
+      { label: "Contact", href: "/contact" },
       { label: "For educators", href: "/for-educators" },
       { label: "Pricing", href: "/pricing" },
-      { label: "About", href: "/about" },
-      { label: "Sign in", href: "/login" },
     ],
   },
   {
@@ -54,6 +56,14 @@ export function Footer() {
             <p className="mt-6 max-w-[240px] text-[10px] leading-relaxed text-paper/28">
               No downloads. No lab coat required. This demo keeps your work in your browser.
             </p>
+            <p className="mt-6 text-[11px] font-semibold text-paper/80">{site.companyLine}</p>
+            <p className="mt-2 text-[10.5px] leading-relaxed text-paper/45">
+              <a href={`mailto:${site.email}`} className="transition-colors hover:text-flare">
+                {site.email}
+              </a>
+              <br />
+              {site.location}
+            </p>
           </div>
 
           {columns.map((column) => (
@@ -76,7 +86,9 @@ export function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col gap-4 border-t border-paper/10 pt-6 text-[10.5px] text-paper/35 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Learning Lab. All simulations are for education.</p>
+          <p>
+            © {new Date().getFullYear()} {site.company}. {site.name} is a product of {site.company}.
+          </p>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <Link href="/legal/privacy" className="transition-colors hover:text-paper">
               Privacy

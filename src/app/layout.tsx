@@ -17,12 +17,17 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://simulith.online"),
   title: {
     default: "Learning Lab | Make the invisible visible",
     template: "%s | Learning Lab",
   },
   description:
     "Learning Lab turns chemistry, biology, physics and anatomy into interactive 2D simulations, with an AI tutor that explains the science behind what you see.",
+  icons: {
+    icon: "/learning-lab-logo.png",
+    apple: "/learning-lab-logo.png",
+  },
   keywords: [
     "virtual laboratory",
     "science simulations",

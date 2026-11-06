@@ -13,6 +13,7 @@ import {
 import { Navbar } from "@/components/site/navbar";
 import { Footer } from "@/components/site/footer";
 import { PageHero } from "@/components/marketing/page-hero";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -246,6 +247,28 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+      <section className="border-t border-line py-10 sm:py-14">
+        <div className="shell">
+          <p className="max-w-[680px] text-[11.5px] leading-[1.85] text-ink/50">
+            Learning Lab is a product of Ivents, based in Lagos, Nigeria. For a demo for your
+            class, an educator rollout, or anything commercial, write to{" "}
+            <a
+              href={`mailto:${site.email}`}
+              className="font-semibold text-ink underline decoration-flare/40 underline-offset-2 hover:decoration-flare"
+            >
+              {site.email}
+            </a>
+            {" "}or read the{" "}
+            <Link
+              href="/contact"
+              className="font-semibold text-ink underline decoration-flare/40 underline-offset-2 hover:decoration-flare"
+            >
+              contact page
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
       </main>
       <Footer />
     </div>
