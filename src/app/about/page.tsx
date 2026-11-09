@@ -250,7 +250,7 @@ export default function AboutPage() {
       <section className="border-t border-line py-10 sm:py-14">
         <div className="shell">
           <p className="max-w-[680px] text-[11.5px] leading-[1.85] text-ink/50">
-            Learning Lab is a product of Ivents, based in Lagos, Nigeria. For a demo for your
+            {/* Learning Lab is a product of Ivents, based in Lagos, Nigeria. */} For a demo for your
             class, an educator rollout, or anything commercial, write to{" "}
             <a
               href={`mailto:${site.email}`}

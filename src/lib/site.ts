@@ -10,8 +10,8 @@ export const site = {
   tagline: "Make the invisible visible",
   description:
     "Learning Lab is a scientific simulation workspace: run experiments in the browser, work through guided practicals and ask a tutor that reads the simulation you are looking at.",
-  company: "Ivents",
-  companyLine: "Learning Lab is a product of Ivents.",
+  company: "Learning Lab", // "Ivents",
+  companyLine: "Learning Lab", // "Learning Lab is a product of Ivents.",
   email: "hello@simulith.online",
   location: "Lagos, Nigeria",
   lastUpdated: "4 November 2026",

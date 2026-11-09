@@ -15,11 +15,11 @@ interface CompanyRecord {
   country: string;
 }
 
-// Official Learning Lab/Ivents company record
+// Official Learning Lab company record
 const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "LL-2026-00001",
-    companyName: "Ivents",
+    companyName: "Learning Lab", // "Ivents",
     website: "simulith.online",
     status: "Verified",
     registrationDate: "2026-01-10",
